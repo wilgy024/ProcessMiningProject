@@ -2,9 +2,16 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+import datetime
+
+currentDateTime = datetime.datetime.now()
+date = currentDateTime.date()
+year = date.strftime("%Y")
+
+
+project = 'Process Mining'
+copyright = '{}, wilgy024'.format(year)
+author = 'wilgy024'
 
 release = '0.1'
 version = '0.1.0'
